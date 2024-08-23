@@ -28,7 +28,7 @@ function Restaurant() {
   };
 
   return (
-    <div className="App">
+    <div className="mt-40">
       <AddRestaurant addRestaurant={addRestaurant} />
       <RestaurantList
         restaurants={restaurants}
